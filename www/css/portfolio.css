@@ -1,0 +1,111 @@
+
+html {
+	background-color: #FFEBCD;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%
+
+} 
+
+.container div {
+	float: left;
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #DCDCDC;
+}
+
+.container:hover .overlay {
+	opacity: .5;
+}
+
+.text {
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+
+}
+
+.img1 {
+	background-image: url('http://www.aspca.org/sites/default/files/aspca.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img2{
+	background-image: url('http://www.aspca.org/sites/default/files/nyc-adoption-center-facebook.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img3{
+	background-image: url('https://d2pdbm7z29k2i6.cloudfront.net/files/aspca/styles/donation_image_460x372/public/call-to-action-guardian-carousel-dog.jpg?itok=Vm955_rl');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img4{
+	background-image: url('https://www.aspca.org/sites/default/files/cat-care_destructive-scratching_main-image.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img5{
+	background-image: url('https://www.aspca.org/sites/default/files/fir_natural_disaster_hurricane_matthew_oct2016_0012.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img6{
+	background-image: url('https://www.spca.org/image/img_volunteer2014.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img7{
+	background-image: url('http://www.dogster.com/wp-content/uploads/2015/05/SHELTER-PET-PUP.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img8{
+	background-image: url('http://www.spcahancockcounty.org/wp-content/uploads/2011/08/volunteerssleepcat.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.img9{
+	background-image: url('http://a.abcnews.com/images/GMA/abc_aspca_120627_wg.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
