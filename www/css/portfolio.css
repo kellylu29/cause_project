@@ -1,0 +1,14 @@
+
+html {
+	background-color: #FFEBCD;
+}
+
+.img1{
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-image: url('http://www.aspca.org/sites/default/files/aspca.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
