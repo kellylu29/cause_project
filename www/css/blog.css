@@ -1,0 +1,46 @@
+#recent_news {
+	margin: 0 auto;
+}
+
+.color {
+	background-color: #FFEBCD;
+}
+
+.left {
+	float:left;
+	border: 2px solid black;
+	width: 180px;
+}
+
+.left_bar {
+	margin: 5px;
+	text-align: center;
+}
+
+.article {
+	margin: 15px 200px;
+	width: 900px;
+	text-align: center;
+}
+
+ .box {
+ 	padding: 5px;
+ 	margin-top: 15px;
+ 	border: 5px solid black;
+ }
+
+ @media all and (max-width: 1000px) {
+ 	.left {
+ 		display: none;
+ 	}
+ 	.left_bar {
+ 		display: none;
+ 	}
+ 	.article {
+ 		margin: 0 auto;
+ 	}
+ 	.box {
+ 		margin: 0 auto;
+ 	}
+
+ }
