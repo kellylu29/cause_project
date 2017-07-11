@@ -163,3 +163,13 @@ h1 span {
 
 }
 
+
+@media all and (max-width: 628px) {
+	.moveplease {
+  	display: none;
+	}
+
+	.bottom_nav {
+		display: block;
+	}
+}
