@@ -31,6 +31,7 @@ li a:hover {
 
 .color {
 	background-color: #FFEBCD;
+	width: 100%;
 }
 
 .left {
@@ -71,18 +72,26 @@ li a:hover {
  	}
  	.article {
  		margin: 0 auto;
+ 		width: 100%;
  	}
  	.box {
  		margin: 0 auto;
+ 		width: 100%;
  	}
  }
 
-/* @media all and (max-width: 480px) {
- 	.moveplease {
- 		display: inline-block;
- 		float: right;
- 		align-items: center;
- 		margin: 0 auto;
+@media all and (max-width: 628px) {
+	.moveplease {
+  	display: none;
+	}
+
+	img {
+ 		width: 80%;
  	}
- }*/
+
+	.bottom_nav {
+		display: block;
+	}
+}
+
 
