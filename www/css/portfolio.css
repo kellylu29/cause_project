@@ -3,6 +3,63 @@ html {
 	background-color: #FFEBCD;
 }
 
+ul {
+    list-style-type: none;
+    background-color: #FFEBCD;
+		overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	margin: 15px;
+	/*padding: 15px 15px;*/
+	text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+.banner {
+	position: relative;
+	background-image: url('https://www.aspca.org/sites/default/files/about-us_2000x430.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 430px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 500px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.7)
+}
+
+h1 span {
+	color: white;
+	font: bold 36px Times, Serif;
+	letter-spacing: 2px;
+	left: 20px;
+	padding: 10px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .container {
 	display: flex;
 	flex-flow: row wrap;
@@ -15,6 +72,7 @@ html {
 	width: 400px;
 	height: 400px;
 	margin: 10px auto;
+	border: 5px solid black;
 }
 
 /*.container > div:hover {
